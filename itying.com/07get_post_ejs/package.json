@@ -1,0 +1,16 @@
+{
+  "name": "07get_post_ejs",
+  "version": "1.0.0",
+  "description": "主要内容\r     1.web服务 封装到router.js模块，实现托管\r     2.路由功能：login找到login.html",
+  "main": "service01.js",
+  "dependencies": {
+    "ejs": "^2.5.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

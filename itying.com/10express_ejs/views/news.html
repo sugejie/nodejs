@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- 引入外部文件 -->
+    <%- include public/header.html %>
+    <br/>
+    <!-- 静态web服务 -->
+    <!-- 访问图片资源 -->
+    <img src="/img/baidu.png" alt="baidu">
+    <!-- 通过虚拟目录访问/static访问图片资源 -->
+    <img src="/static/img/baidu.png" alt="baidu">
+
+    <ul>
+        <% for(var i=0; i<list.length; i++) { %>
+        <li><%=list[i] %></li>
+        <% } %>
+    </ul>
+</body>
+</html>
